@@ -33,6 +33,12 @@ namespace FinancialTrackingSystemMain
                 var transaction = Mapper.GetDeserializedTransaction(message);
                 if(transaction != null)
                 {
+                    var validator = new Validator();
+                    var isValidtransaction = validator.Validate(transaction);
+                    if (isValidtransaction)
+                        RabbitMQService.PublishToConsumer("queue.api.processing.transaction", "rabbitmq.financial.sender.processing.routingkey", message);
+                    else
+                        RabbitMQService.PublishToConsumer("queue.api.holding.transaction", "rabbitmq.financial.sender.holding.routingkey", message);
                     channel.BasicAck(args.DeliveryTag, false);
                 }
             };

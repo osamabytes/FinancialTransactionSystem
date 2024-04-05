@@ -8,6 +8,6 @@ namespace FinancialTrackingSystemMain.Model.Tenant
 {
     public class Threshold
     {
-        public int PerTransaction { get; set; }
+        public string? pertransaction { get; set; }
     }
 }

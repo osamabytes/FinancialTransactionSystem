@@ -8,6 +8,6 @@ namespace FinancialTrackingSystemMain.Model.Tenant
 {
     public class VelocityLimit
     {
-        public int Daily { get; set; }
+        public string? daily { get; set; }
     }
 }

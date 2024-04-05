@@ -8,7 +8,7 @@ namespace FinancialTrackingSystemMain.Model.Tenant
 {
     public class Sanction
     {
-        public string? SourceCountryCode { get; set; }
-        public string? DestinationCountryCode { get; set; }
+        public string? sourcecountrycode { get; set; }
+        public string? destinationcountrycode { get; set; }
     }
 }
