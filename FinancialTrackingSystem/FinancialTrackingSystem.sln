@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33717.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialTrackingSystemMain", "FinancialTrackingSystemMain\FinancialTrackingSystemMain.csproj", "{A2E058CE-0F3C-47C8-B0E0-4953AE525727}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialTrackingSystem", "FinancialTrackingSystem\FinancialTrackingSystem.csproj", "{541DB07C-AD78-4D64-B649-2558C36400D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A2E058CE-0F3C-47C8-B0E0-4953AE525727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A2E058CE-0F3C-47C8-B0E0-4953AE525727}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A2E058CE-0F3C-47C8-B0E0-4953AE525727}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A2E058CE-0F3C-47C8-B0E0-4953AE525727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{541DB07C-AD78-4D64-B649-2558C36400D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{541DB07C-AD78-4D64-B649-2558C36400D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{541DB07C-AD78-4D64-B649-2558C36400D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{541DB07C-AD78-4D64-B649-2558C36400D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {52503DFE-E63A-45A8-AC38-79A8AF9C2846}
+		SolutionGuid = {059D8F85-6090-4E2C-A773-DED739CD2470}
 	EndGlobalSection
 EndGlobal

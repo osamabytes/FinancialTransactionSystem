@@ -1,14 +1,14 @@
-﻿using FinancialTrackingSystemMain.Model;
-using FinancialTrackingSystemMain.Model.Tenant;
+﻿using FinancialTrackingSystem.Models;
+using FinancialTrackingSystem.Models.Tenant;
 using Newtonsoft.Json;
-using RabbitMQ.Client.Events;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FinancialTrackingSystemMain.Service
+namespace FinancialTrackingSystem.Services
 {
     public class Validator
     {
@@ -22,9 +22,9 @@ namespace FinancialTrackingSystemMain.Service
             var tenantSettingsList = tenantData?.tenantsettings;
             if (tenantSettingsList != null)
             {
-                foreach(var tenantSetting in tenantSettingsList)
+                foreach (var tenantSetting in tenantSettingsList)
                 {
-                    if(tenantSetting.tenantid == tenantId)
+                    if (tenantSetting.tenantid == tenantId)
                         return JsonConvert.DeserializeObject<TenantSetting>(tenantSetting.ToString());
                 }
             }

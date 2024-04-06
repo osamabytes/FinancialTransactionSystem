@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FinancialTrackingSystemMain.Model.Tenant
+namespace FinancialTrackingSystem.Models.Tenant
 {
-    public class Threshold
+    public class VelocityLimit
     {
-        public string? pertransaction { get; set; }
+        public string daily { get; set; }
     }
 }
